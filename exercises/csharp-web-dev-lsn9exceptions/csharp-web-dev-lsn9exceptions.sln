@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-web-dev-lsn9exceptions", "csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions.csproj", "{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureExceptions", "TemperatureExceptions\TemperatureExceptions.csproj", "{54D0743B-BE90-4785-9757-181B4BED9BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{8FAE07CE-0D3C-42FB-8861-4BA96F38D65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit1-TempExceptions", "Unit1-TempExceptions\Unit1-TempExceptions\Unit1-TempExceptions.csproj", "{172DC0C4-1713-4A5A-B4CA-446D61F5063D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{487C4423-B09D-41A7-B8CE-B3B218FA8CB9}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{54D0743B-BE90-4785-9757-181B4BED9BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D0743B-BE90-4785-9757-181B4BED9BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D0743B-BE90-4785-9757-181B4BED9BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D0743B-BE90-4785-9757-181B4BED9BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D0743B-BE90-4785-9757-181B4BED9BBB}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D0743B-BE90-4785-9757-181B4BED9BBB}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{172DC0C4-1713-4A5A-B4CA-446D61F5063D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172DC0C4-1713-4A5A-B4CA-446D61F5063D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172DC0C4-1713-4A5A-B4CA-446D61F5063D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172DC0C4-1713-4A5A-B4CA-446D61F5063D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172DC0C4-1713-4A5A-B4CA-446D61F5063D}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{172DC0C4-1713-4A5A-B4CA-446D61F5063D}.Default|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		BaseDirectory = Unit1-TempExceptions
+	EndGlobalSection
+EndGlobal

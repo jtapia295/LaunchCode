@@ -1,0 +1,13 @@
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\bin\Debug\netcoreapp3.1\Unit1-TempExceptions.exe
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\bin\Debug\netcoreapp3.1\Unit1-TempExceptions.deps.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\bin\Debug\netcoreapp3.1\Unit1-TempExceptions.runtimeconfig.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\bin\Debug\netcoreapp3.1\Unit1-TempExceptions.runtimeconfig.dev.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\bin\Debug\netcoreapp3.1\Unit1-TempExceptions.dll
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\bin\Debug\netcoreapp3.1\Unit1-TempExceptions.pdb
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.csproj.AssemblyReference.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.AssemblyInfoInputs.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.AssemblyInfo.cs
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.csproj.CoreCompileInputs.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.dll
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.pdb
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\Unit1-TempExceptions\Unit1-TempExceptions\obj\Debug\netcoreapp3.1\Unit1-TempExceptions.genruntimeconfig.cache

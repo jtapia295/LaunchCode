@@ -1,0 +1,13 @@
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\bin\Debug\netcoreapp3.1\TemperatureExceptions.exe
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\bin\Debug\netcoreapp3.1\TemperatureExceptions.deps.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\bin\Debug\netcoreapp3.1\TemperatureExceptions.runtimeconfig.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\bin\Debug\netcoreapp3.1\TemperatureExceptions.runtimeconfig.dev.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\bin\Debug\netcoreapp3.1\TemperatureExceptions.dll
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\bin\Debug\netcoreapp3.1\TemperatureExceptions.pdb
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.csproj.AssemblyReference.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.AssemblyInfoInputs.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.AssemblyInfo.cs
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.csproj.CoreCompileInputs.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.dll
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.pdb
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\TemperatureExceptions\obj\Debug\netcoreapp3.1\TemperatureExceptions.genruntimeconfig.cache

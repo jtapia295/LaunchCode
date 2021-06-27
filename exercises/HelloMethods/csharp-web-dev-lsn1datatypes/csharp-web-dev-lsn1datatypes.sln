@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverter", "TempConverter\TempConverter.csproj", "{71E4530D-3E51-43F1-9C81-87417D67E40F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{5DDF587E-34B6-430B-96A0-F9DB1A786915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71E4530D-3E51-43F1-9C81-87417D67E40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E4530D-3E51-43F1-9C81-87417D67E40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E4530D-3E51-43F1-9C81-87417D67E40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E4530D-3E51-43F1-9C81-87417D67E40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

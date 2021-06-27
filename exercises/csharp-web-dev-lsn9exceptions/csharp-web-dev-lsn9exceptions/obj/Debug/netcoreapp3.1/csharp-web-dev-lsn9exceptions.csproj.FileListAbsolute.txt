@@ -1,0 +1,13 @@
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.csproj.AssemblyReference.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.AssemblyInfoInputs.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.AssemblyInfo.cs
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.csproj.CoreCompileInputs.cache
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\bin\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.exe
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\bin\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.deps.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\bin\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.runtimeconfig.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\bin\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.runtimeconfig.dev.json
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\bin\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.dll
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\bin\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.pdb
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.dll
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.pdb
+D:\windows-repos\LaunchCode\exercises\csharp-web-dev-lsn9exceptions\csharp-web-dev-lsn9exceptions\obj\Debug\netcoreapp3.1\csharp-web-dev-lsn9exceptions.genruntimeconfig.cache

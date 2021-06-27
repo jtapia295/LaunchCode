@@ -1,0 +1,16 @@
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\Studio-ChPT17.exe
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\Studio-ChPT17.deps.json
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\Studio-ChPT17.runtimeconfig.json
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\Studio-ChPT17.runtimeconfig.dev.json
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\Studio-ChPT17.dll
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\ref\Studio-ChPT17.dll
+D:\windows-repos\Studios\CH17\Studio-ChPT17\bin\Debug\net5.0\Studio-ChPT17.pdb
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.csproj.AssemblyReference.cache
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.GeneratedMSBuildEditorConfig.editorconfig
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.AssemblyInfoInputs.cache
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.AssemblyInfo.cs
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.csproj.CoreCompileInputs.cache
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.dll
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\ref\Studio-ChPT17.dll
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.pdb
+D:\windows-repos\Studios\CH17\Studio-ChPT17\obj\Debug\net5.0\Studio-ChPT17.genruntimeconfig.cache
