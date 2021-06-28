@@ -1,0 +1,12 @@
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.AssemblyInfoInputs.cache
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.AssemblyInfo.cs
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.csproj.CoreCompileInputs.cache
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/bin/Debug/netcoreapp3.1/SchoolPractice.deps.json
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/bin/Debug/netcoreapp3.1/SchoolPractice.runtimeconfig.json
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/bin/Debug/netcoreapp3.1/SchoolPractice.runtimeconfig.dev.json
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/bin/Debug/netcoreapp3.1/SchoolPractice.dll
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/bin/Debug/netcoreapp3.1/SchoolPractice.pdb
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.dll
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.pdb
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.genruntimeconfig.cache
+/Users/josetapia/mac-repos/LaunchCode/exercises/csharp-web-dev-lsn3and4classes/SchoolPractice/obj/Debug/netcoreapp3.1/SchoolPractice.csproj.AssemblyReference.cache
