@@ -28,11 +28,8 @@ namespace RestaurantMenu
             sandyBistro.AddAppetizer(item3);
             sandyBistro.AppetizerMenu();
 
-
-
-
-           
-
+            sandyBistro.RemoveMenuItem(item3);
+            sandyBistro.AppetizerMenu();
         }
     }
 }

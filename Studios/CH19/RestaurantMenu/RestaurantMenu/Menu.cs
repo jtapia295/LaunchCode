@@ -10,17 +10,35 @@ namespace RestaurantMenu
 
         internal void AddAppetizer(MenuItem item)
         {
-            Appetizers.Add(item);
+            item.TimeStamp = DateTime.Now;
+            Appetizers.Add(item); 
         }
         internal void AddMainCourse(MenuItem item)
         {
+            item.TimeStamp = DateTime.Now;
             this.MainCourse.Add(item);
         }
         internal void AddDessert(MenuItem item)
         {
+            item.TimeStamp = DateTime.Now;
             this.Dessert.Add(item);
         }
 
+        internal void RemoveMenuItem(MenuItem item)
+        {
+            if(item.Description == "Appetizer")
+            {
+                Appetizers.Remove(item);
+            }
+            else if (item.Description == "Main Course")
+            {
+                MainCourse.Remove(item);
+            }
+            else if (item.Description == "Dessert")
+            {
+                Dessert.Remove(item);
+            }
+        }
 
         //Method to display the full menu 
         public void FullMenu()
@@ -31,7 +49,7 @@ namespace RestaurantMenu
                 Console.WriteLine(Appetizers[i].Description);
                 if (i == Appetizers.Count - 1)
                 {
-                    Console.Write($"\n\"NEW ITEM: {Appetizers[i].Description}\"");
+                    Console.Write($"\n\"NEW ITEM: {Appetizers[i].Description}\"\n");
                 }
             }
             Console.WriteLine("\n\n------------Main Course Menu----------------");
@@ -40,7 +58,7 @@ namespace RestaurantMenu
                 Console.WriteLine(MainCourse[i].Description);
                 if (i == MainCourse.Count - 1)
                 {
-                    Console.Write($"\n\"NEW ITEM: {MainCourse[i].Description}\"");
+                    Console.Write($"\n\"NEW ITEM: {MainCourse[i].Description}\"\n");
                 }
             }
             Console.WriteLine("\n\n------------Dessert Menu----------------");
@@ -49,7 +67,7 @@ namespace RestaurantMenu
                 Console.WriteLine(Dessert[i].Description);
                 if (i == Dessert.Count - 1)
                 {
-                    Console.Write($"\n\"NEW ITEM: {Dessert[i].Description}\"");
+                    Console.Write($"\n\"NEW ITEM: {Dessert[i].Description}\"\n");
                 }
             }
         }
