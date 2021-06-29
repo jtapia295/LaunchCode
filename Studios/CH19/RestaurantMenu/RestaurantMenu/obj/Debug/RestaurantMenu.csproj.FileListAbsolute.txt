@@ -1,0 +1,6 @@
+/Users/josetapia/mac-repos/LaunchCode/Studios/CH18/RestaurantMenu/RestaurantMenu/bin/Debug/RestaurantMenu.exe
+/Users/josetapia/mac-repos/LaunchCode/Studios/CH18/RestaurantMenu/RestaurantMenu/bin/Debug/RestaurantMenu.pdb
+/Users/josetapia/mac-repos/LaunchCode/Studios/CH18/RestaurantMenu/RestaurantMenu/obj/Debug/RestaurantMenu.csproj.AssemblyReference.cache
+/Users/josetapia/mac-repos/LaunchCode/Studios/CH18/RestaurantMenu/RestaurantMenu/obj/Debug/RestaurantMenu.csproj.CoreCompileInputs.cache
+/Users/josetapia/mac-repos/LaunchCode/Studios/CH18/RestaurantMenu/RestaurantMenu/obj/Debug/RestaurantMenu.exe
+/Users/josetapia/mac-repos/LaunchCode/Studios/CH18/RestaurantMenu/RestaurantMenu/obj/Debug/RestaurantMenu.pdb
