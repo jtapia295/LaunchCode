@@ -4,120 +4,181 @@ namespace RestaurantMenu
 {
     public class Menu
     {
-        internal protected List<MenuItem> Appetizers = new List<MenuItem>();
-        internal protected List<MenuItem> MainCourse = new List<MenuItem>();
-        internal protected List<MenuItem> Dessert = new List<MenuItem>();
+        readonly List<MenuItem> MenuItems = new List<MenuItem>();
 
-        internal void AddAppetizer(MenuItem item)
+        //Compares menu Items
+        public bool CompareMenuItems(MenuItem item1, MenuItem item2)
         {
-            item.TimeStamp = DateTime.Now;
-            Appetizers.Add(item); 
-        }
-        internal void AddMainCourse(MenuItem item)
-        {
-            item.TimeStamp = DateTime.Now;
-            this.MainCourse.Add(item);
-        }
-        internal void AddDessert(MenuItem item)
-        {
-            item.TimeStamp = DateTime.Now;
-            this.Dessert.Add(item);
+            bool result = item1.Equals(item2);
+            return result;
         }
 
+        //Displays specified item
+        public void ShowMenuItem(MenuItem item)
+        {
+            if (MenuItems.Contains(item))
+            {
+                Console.WriteLine($"Selection {item.Description} was added to the menu {item.TimeAddedToMenu} and was last updated {item.LastUpdated}\nCurrent Price:${item.Price}");
+            }
+        }
+
+        //Displays when the menu was last updated
+        public DateTime CurrentMenuDate()
+        {
+            DateTime current = DateTime.Now;
+            foreach(var item in MenuItems)
+            {
+                current = item.LastUpdated;
+            }
+            Console.WriteLine(current);
+            return current;
+            
+        }
+
+        //Add an item to the menu
+        internal void AddMenuItem(MenuItem item)
+        {
+            item.TimeAddedToMenu = DateTime.Now;
+            MenuItems.Add(item);
+        }
+
+        //Removes item from the menu
         internal void RemoveMenuItem(MenuItem item)
         {
-            if(item.Description == "Appetizer")
+            if (item.Category == "appetizer")
             {
-                Appetizers.Remove(item);
+                MenuItems.Remove(item);
             }
-            else if (item.Description == "Main Course")
+            else if (item.Category == "main")
             {
-                MainCourse.Remove(item);
+                MenuItems.Remove(item);
             }
-            else if (item.Description == "Dessert")
+            else if (item.Category == "dessert")
             {
-                Dessert.Remove(item);
+                MenuItems.Remove(item);
             }
         }
 
         //Method to display the full menu 
         public void FullMenu()
         {
-            Console.WriteLine("------------Appetizer Menu----------------");
-            for (int i = 0; i < Appetizers.Count; i++)
+            bool appmenu = true;
+            bool mainmenu = true;
+            bool dessert = true; 
+            foreach(var item in MenuItems)
             {
-                Console.WriteLine(Appetizers[i].Description);
-                if (i == Appetizers.Count - 1)
+                if (item.Category == "appetizer")
                 {
-                    Console.Write($"\n\"NEW ITEM: {Appetizers[i].Description}\"\n");
+                    if(appmenu)
+                    {
+                        Console.WriteLine($"------------Appetizer Menu----------------\nLast Updated: {CurrentMenuDate()}");
+                    }
+                    if (item.TimeAddedToMenu > DateTime.Today.AddDays(-7))
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description} \"New Menu Item\"");
+                    }
+                    else
+                    {
+                        Console.WriteLine(item.Description);
+                    }
+                    appmenu = false;
+                }
+                if (item.Category == "main")
+                {
+                    if (mainmenu)
+                    {
+                        Console.WriteLine($"------------Main Courses----------------\nLast Updated: {CurrentMenuDate()}");
+                    }
+                    if (item.TimeAddedToMenu > DateTime.Today.AddDays(-7))
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description} \"New Menu Item\"");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description}");
+                    }
+                    mainmenu = false;
+                }
+                if (item.Category == "dessert")
+                {
+                    if (dessert)
+                    {
+                        Console.WriteLine($"------------Dessert Menu----------------\nLast Updated: {CurrentMenuDate()}");
+                    }
+                    if (item.TimeAddedToMenu < DateTime.Today.AddDays(-7))
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description} \"New Menu Item\"");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description}");
+                    }
+                    dessert = false;
                 }
             }
-            Console.WriteLine("\n\n------------Main Course Menu----------------");
-            for (int i = 0; i < MainCourse.Count; i++)
-            {
-                Console.WriteLine(MainCourse[i].Description);
-                if (i == MainCourse.Count - 1)
-                {
-                    Console.Write($"\n\"NEW ITEM: {MainCourse[i].Description}\"\n");
-                }
-            }
-            Console.WriteLine("\n\n------------Dessert Menu----------------");
-            for (int i = 0; i < Dessert.Count; i++)
-            {
-                Console.WriteLine(Dessert[i].Description);
-                if (i == Dessert.Count - 1)
-                {
-                    Console.Write($"\n\"NEW ITEM: {Dessert[i].Description}\"\n");
-                }
-            }
+
         }
 
         //Method to display Appetizers
         public void AppetizerMenu()
         {
-            Console.WriteLine("------------Appetizer Menu----------------");
-            for (int i = 0; i < Appetizers.Count; i++)
+            Console.WriteLine($"------------Appetizers----------------\nLast Updated: {CurrentMenuDate()}");
+            foreach (var item in MenuItems)
             {
-                Console.WriteLine(Appetizers[i].Description);
-                if (i == Appetizers.Count -1)
+                if (item.Category == "appetizer")
                 {
-                    Console.Write($"\n\"NEW ITEM: {Appetizers[i].Description}\"");
+                    if (item.TimeAddedToMenu > DateTime.Today.AddDays(-7))
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description} \"New Menu Item\"");
+                    }
+                    else
+                    {
+                        Console.WriteLine(item.Description);
+                    }
                 }
             }
-        }
-
+        }       
 
         //Method to display MainCourse
         public void MainCourseMenu()
         {
-            Console.WriteLine("\n\n------------Main Course Menu----------------");
-            for (int i = 0; i < MainCourse.Count; i++)
+            Console.WriteLine($"------------Main Courses----------------\nLast Updated: {CurrentMenuDate()}");
+            foreach (var item in MenuItems)
             {
-                Console.WriteLine(MainCourse[i].Description);
-                if (i == MainCourse.Count - 1)
+                if (item.Category == "main")
                 {
-                    Console.Write($"\n\"NEW ITEM: {MainCourse[i].Description}\"");
+                    if (item.TimeAddedToMenu > DateTime.Today.AddDays(-7))
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description} \"New Menu Item\"");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description}");
+                    }
                 }
             }
         }
-
 
         //Method to display Desserts
         public void DessertMenu()
         {
-            Console.WriteLine("\n\n------------Dessert Menu----------------");
-            for (int i = 0; i < Dessert.Count; i++)
+            Console.WriteLine($"------------Dessert----------------\nLast Updated: {CurrentMenuDate()}");
+            foreach (var item in MenuItems)
             {
-                Console.WriteLine(Dessert[i].Description);
-                if (i == Dessert.Count - 1)
+                if (item.Category == "dessert")
                 {
-                    Console.Write($"\n\"NEW ITEM: {Dessert[i].Description}\"");
+                    if (item.TimeAddedToMenu < DateTime.Today.AddDays(-7))
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description} \"New Menu Item\"");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"${item.Price} : {item.Description}");
+                    }
                 }
             }
 
         }
-
-
 
         public Menu()
         {
